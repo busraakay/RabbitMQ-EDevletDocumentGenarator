@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  s_rabbitmq:
+    container_name: c_rabbitmq          # RabbitMQ konteynerinin adı
+    image: rabbitmq:3-management       # RabbitMQ'nun yönetim paneli ile birlikte olan versiyonu
+    ports:
+      - 5672:5672                      # RabbitMQ AMQP portu (Uygulamanla iletişim)
+      - 15672:15672                    # Web yönetim paneli portu
+    volumes:
+      - rabbitmq:/var/lib/rabbitmq     # Veritabanını kalıcı hale getiren volume
+
+volumes:
+  rabbitmq:                            # RabbitMQ verilerini saklamak için volume
