@@ -1,0 +1,11 @@
+C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Document.Common\bin\Debug\net8.0\EDevlet.Document.Common.deps.json
+C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Document.Common\bin\Debug\net8.0\EDevlet.Document.Common.dll
+C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Document.Common\bin\Debug\net8.0\EDevlet.Document.Common.pdb
+C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Document.Common\obj\Debug\net8.0\EDevlet.Document.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Document.Common\obj\Debug\net8.0\EDevlet.Document.Common.AssemblyInfoInputs.cache
+C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Document.Common\obj\Debug\net8.0\EDevlet.Document.Common.AssemblyInfo.cs
+C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Document.Common\obj\Debug\net8.0\EDevlet.Document.Common.csproj.CoreCompileInputs.cache
+C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Document.Common\obj\Debug\net8.0\EDevlet.Document.Common.dll
+C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Document.Common\obj\Debug\net8.0\refint\EDevlet.Document.Common.dll
+C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Document.Common\obj\Debug\net8.0\EDevlet.Document.Common.pdb
+C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Document.Common\obj\Debug\net8.0\ref\EDevlet.Document.Common.dll

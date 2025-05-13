@@ -18,3 +18,7 @@ C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Docum
 C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Document.Request\obj\Debug\net8.0-windows\EDevlet.Document.Request.pdb
 C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Document.Request\obj\Debug\net8.0-windows\EDevlet.Document.Request.genruntimeconfig.cache
 C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Document.Request\obj\Debug\net8.0-windows\ref\EDevlet.Document.Request.dll
+C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Document.Request\bin\Debug\net8.0-windows\EDevlet.Document.Common.dll
+C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Document.Request\bin\Debug\net8.0-windows\EDevlet.Document.Common.pdb
+C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Document.Request\obj\Debug\net8.0-windows\EDevlet.Document.Request.frmSplash.resources
+C:\Users\win11\OneDrive\Belgeler\RabbitMQ\EDevlet.Document.Request\EDevlet.Document.Request\obj\Debug\net8.0-windows\EDevlet.Document.Request.Properties.Resources.resources

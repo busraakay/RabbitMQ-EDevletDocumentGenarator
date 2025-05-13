@@ -53,6 +53,16 @@
             "related": ".xml"
           }
         }
+      },
+      "EDevlet.Document.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/EDevlet.Document.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EDevlet.Document.Common.dll": {}
+        }
       }
     }
   },
@@ -152,10 +162,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "EDevlet.Document.Common/1.0.0": {
+      "type": "project",
+      "path": "../EDevlet.Document.Common/EDevlet.Document.Common.csproj",
+      "msbuildProject": "../EDevlet.Document.Common/EDevlet.Document.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "EDevlet.Document.Common >= 1.0.0",
       "Newtonsoft.Json >= 13.0.3",
       "RabbitMQ.Client >= 6.2.1"
     ]
@@ -192,7 +208,11 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\win11\\OneDrive\\Belgeler\\RabbitMQ\\EDevlet.Document.Request\\EDevlet.Document.Common\\EDevlet.Document.Common.csproj": {
+              "projectPath": "C:\\Users\\win11\\OneDrive\\Belgeler\\RabbitMQ\\EDevlet.Document.Request\\EDevlet.Document.Common\\EDevlet.Document.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

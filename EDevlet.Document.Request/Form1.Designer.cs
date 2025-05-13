@@ -73,6 +73,7 @@
             btnCreateDocument.TabIndex = 3;
             btnCreateDocument.Text = "Create Document";
             btnCreateDocument.UseVisualStyleBackColor = true;
+            btnCreateDocument.Click += btnCreateDocument_Click;
             // 
             // contextMenuStrip1
             // 
