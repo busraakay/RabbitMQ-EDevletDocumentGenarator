@@ -46,12 +46,43 @@ Bu proje, RabbitMQ kullanarak belge oluşturma işlemlerini yöneten basit bir m
 
 ## 🛠 Kurulum ve Çalıştırma
 
-### 🐇 RabbitMQ Kurulumu
+## 🐳 Docker ile RabbitMQ Kurulumu ve Çalıştırma
 
-- [RabbitMQ resmi sitesi](https://www.rabbitmq.com/download.html) üzerinden indirip kurabilirsiniz.
-- RabbitMQ yönetim paneli için: `http://localhost:15672/`  
-  Default kullanıcı: `guest`  
-  Şifre: `guest`
+Projede RabbitMQ mesaj kuyruğu olarak kullanılmıştır. RabbitMQ’yu Docker üzerinden kolayca çalıştırmak için aşağıdaki `docker-compose.yml` dosyasını kullanabilirsiniz:
+
+```yaml
+version: '3.4'
+
+services:
+  s_rabbitmq:
+    container_name: c_rabbitmq          # RabbitMQ konteynerinin adı
+    image: rabbitmq:3-management         # Yönetim paneli ile gelen RabbitMQ imajı
+    ports:
+      - 5672:5672                      # AMQP protokolü portu
+      - 15672:15672                    # Yönetim paneli portu
+    volumes:
+      - rabbitmq:/var/lib/rabbitmq     # Kalıcı veri depolama için volume
+
+volumes:
+  rabbitmq:
+```
+
+### 🚀 RabbitMQ'yu Başlatma
+
+1. `docker-compose.yml` dosyasını proje kök dizinine kaydedin.  
+2. Terminal veya komut istemcisinde dosyanın olduğu dizine gidin.  
+3. Aşağıdaki komutla RabbitMQ konteynerini arka planda başlatın:
+
+```bash
+docker-compose up -d
+```
+
+4. RabbitMQ yönetim paneline şu adresten erişebilirsiniz:  
+   [http://localhost:15672](http://localhost:15672)  
+   Kullanıcı adı: `guest`  
+   Şifre: `guest`
+
+---
 
 ### ▶️ Projeyi Çalıştırmak
 
