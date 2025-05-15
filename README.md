@@ -44,7 +44,6 @@ Bu proje, RabbitMQ kullanarak belge oluşturma işlemlerini yöneten basit bir m
 
 ---
 
-## 🛠 Kurulum ve Çalıştırma
 
 ## 🐳 Docker ile RabbitMQ Kurulumu ve Çalıştırma
 
